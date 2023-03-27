@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="info">
+        <span class="pass">Generate Your Password </span>
+        <button class="copy-btn">copy</button>
+      </div>
+      <div class="info-boxes">
+        <div class="box">
+          <input type="range" id="range" max="20" min="1" />
+          <label class="range-label" for="range"></label>
+        </div>
+        <div class="box">
+          <label for="num">Numbers</label>
+          <input type="checkbox" class="num" id="num" checked />
+        </div>
+        <div class="box">
+          <label for="upper">UpperCase</label>
+          <input type="checkbox" class="upper" id="upper" checked />
+        </div>
+        <div class="box">
+          <label for="lower">LowerCase</label>
+          <input type="checkbox" class="lower" id="lower" checked />
+        </div>
+        <div class="box">
+          <label for="symb">Symbols</label>
+          <input type="checkbox" class="symb" id="symb" checked />
+        </div>
+      </div>
+      <button class="generate">Generate</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
